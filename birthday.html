@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love ❤️</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="birthday-page">
+
+    <div class="floating-hearts">
+        <span>♥</span>
+        <span>♡</span>
+        <span>♥</span>
+        <span>♡</span>
+        <span>♥</span>
+        <span>♡</span>
+    </div>
+
+    <main class="birthday-container">
+
+        <section class="hero-section">
+            <div class="small-label">
+                TODAY IS ALL ABOUT YOU ❤️
+            </div>
+
+            <h1>
+                Happy Birthday,
+                <span>Chellam</span> 🎂
+            </h1>
+
+            <p>
+                To the person who makes my world a little brighter,
+                happier and more beautiful every single day.
+            </p>
+        </section>
+
+        <!-- INTERACTIVE BIRTHDAY CAKE & CANDLE SECTION -->
+        <section class="cake-card cake-section reveal-on-scroll">
+            <div class="card-icon">🎂</div>
+            <h2>Make A Birthday Wish, My Dear! 🕯️</h2>
+            <p>Close your eyes, make a secret wish in your heart, and tap the candle to blow it out!</p>
+            
+            <div class="cake-display-container">
+                <div class="interactive-cake" id="birthdayCake" title="Click to blow out the candle!">
+                    <div class="cake-candle">
+                        <div class="cake-flame" id="cakeFlame"></div>
+                        <div class="cake-smoke"></div>
+                    </div>
+                    <div class="cake-tier-top">
+                        <div class="cake-frosting"></div>
+                    </div>
+                    <div class="cake-tier-bottom">
+                        <div class="cake-frosting"></div>
+                    </div>
+                    <div class="cake-plate"></div>
+                </div>
+
+                <div class="wish-badge" id="wishBadge">
+                    ✨ Your wish has been lifted up to Heaven! God bless you abundantly, my love! 🙏❤️
+                </div>
+            </div>
+
+            <button class="pink-button" id="blowCandleBtn" style="margin-top: 15px;">
+                Blow Out The Candle 💨
+            </button>
+
+            <div class="bible-verse-box">
+                <p class="bible-verse-text">
+                    "நான் உண்டுபண்ணின எல்லா ஜாதிகளைப்பார்க்கிலும், புகழ்ச்சியிலும் கீர்த்தியிலும் மகிமையிலும் உன்னைச் சிறந்திருக்கும்படி செய்வேன்."
+                </p>
+                <p class="bible-verse-ref">— உபாகமம் 26:19</p>
+            </div>
+
+        </section>
+
+        <!-- PHOTO SECTION -->
+        <section class="photo-card reveal-on-scroll">
+            <div class="section-title">
+                📸 My Hero😍😘❤️
+            </div>
+
+            <div class="photo-frame-wrapper">
+                <div class="photo-frame" title="My handsome hubby">
+                    <img
+                        src="assets/nelson.jpg"
+                        alt="My Love"
+                        onerror="showPhotoFallback(this.parentElement)"
+                    >
+                </div>
+            </div>
+
+            <p class="photo-note">
+                I love you so muchh baby 💕🥹🩷
+            </p>
+        </section>
+
+        <!-- BIRTHDAY WISH -->
+        <section class="message-card reveal-on-scroll">
+            <div class="card-icon">🎂</div>
+
+            <h2>Happy Birthday My Love</h2>
+
+            <p>
+                Happy Birthday to the most special person in my life.
+                May this beautiful day bring you happiness, peace,
+                success and countless reasons to smile.
+            </p>
+
+            <p>
+                May God bless you abundantly, guide every step you take,
+                protect you wherever you go and fill your life with
+                His grace and love.
+            </p>
+        </section>
+
+        <!-- LOVE MESSAGE -->
+        <section class="love-card reveal-on-scroll">
+            <div class="card-icon">💗</div>
+
+            <h2>A Little Something From My Heart</h2>
+
+            <p>
+                Bby, you are not just someone I love.
+                You are someone I want to laugh with,
+                dream with, travel with,
+                grow with and build a beautiful life with.
+            </p>
+
+            <p>
+                Thank you for being part of my life.
+                Thank you for every little moment,
+                every smile and every memory.
+            </p>
+
+            <p class="highlight-text">
+                If I could choose again,
+                I would still choose you. ❤️
+            </p>
+        </section>
+
+
+        <!-- SURPRISE BUTTON -->
+        <section class="surprise-section reveal-on-scroll">
+            <div class="sparkle">✨</div>
+
+            <h2>
+                But wait...
+            </h2>
+
+            <p>
+                Your birthday surprise isn't over yet. 🥹
+            </p>
+
+            <button
+                class="pink-button big-button"
+                onclick="goToSurprise()"
+            >
+                I Have A Surprise For You 💗
+            </button>
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

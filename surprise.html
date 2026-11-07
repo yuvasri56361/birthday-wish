@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Surprise 💍</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="surprise-page">
+
+    <div class="floating-hearts">
+        <span>♥</span>
+        <span>♡</span>
+        <span>♥</span>
+        <span>♡</span>
+        <span>♥</span>
+        <span>♡</span>
+    </div>
+
+    <main class="surprise-container">
+
+        <div class="surprise-card">
+
+            <div class="sparkle">
+                ✨
+            </div>
+
+            <h1>
+                One More Question...
+            </h1>
+
+            <!-- DOLL -->
+            <div class="doll-container">
+                <img
+                    src="assets/girl-doll.png"
+                    alt="Cute girl doll"
+                    onerror="showDollFallback(this.parentElement)"
+                >
+            </div>
+
+            <h2>
+                It's Me 🥹❤️
+            </h2>
+
+            <p class="cute-text">
+                The girl who wants to annoy you,
+                love you, laugh with you,
+                travel with you...
+                <br>
+                and stay with you forever. 💗
+            </p>
+
+            <div class="question-box">
+
+                <h2>
+                    Will You Marry Me? 💍
+                </h2>
+
+                <p>
+                    Choose carefully, Dear... 😌❤️
+                </p>
+
+                <div class="answer-buttons">
+
+                    <button
+                        class="yes-button"
+                        onclick="sayYes()"
+                    >
+                        YES ❤️
+                    </button>
+
+                    <button
+                        id="noButton"
+                        class="no-button"
+                    >
+                        NO 😜
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

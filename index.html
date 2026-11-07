@@ -18,6 +18,25 @@
         <span>♡</span>
     </div>
 
+    <script>
+const music = document.getElementById("bgMusic");
+const musicBtn = document.getElementById("musicBtn");
+
+async function toggleMusic() {
+    try {
+        if (music.paused) {
+            await music.play();
+            musicBtn.innerHTML = "⏸ Pause Music";
+        } else {
+            music.pause();
+            musicBtn.innerHTML = "🎵 Play Music";
+        }
+    } catch (error) {
+        console.error("Music playback error:", error);
+    }
+}
+</script>
+
     <main class="login-container">
 
         <div class="heart-icon" title="Click me for love ❤️">♥</div>
